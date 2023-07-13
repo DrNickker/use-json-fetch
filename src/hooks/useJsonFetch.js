@@ -29,5 +29,6 @@ export default function useJsonFetch(url) {
         fetchData();
     }, [url]);
 
+    
     return [data, loading, error]
 }
